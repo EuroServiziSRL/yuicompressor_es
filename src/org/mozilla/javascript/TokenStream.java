@@ -215,7 +215,6 @@ class TokenStream
                 case 'l': X="false";id=Id_false; break L;
                 case 'n': c=s.charAt(0);
                     if (c=='c') { X="const";id=Id_const; }
-                    else if (c=='f') { X="final";id=Id_final; }
                     break L;
                 case 'o': c=s.charAt(0);
                     if (c=='f') { X="float";id=Id_float; }
